@@ -1,0 +1,677 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ width: 100%;
+
+}
+.logo{
+  /* padding-left:46% ; */
+  padding-bottom: 15px;
+}
+.navbar{
+ display: flex;
+
+ font-size: 20px;
+ color:rgb(233, 182, 85) ;
+ /* justify-content: space-evenly; */
+ /* padding-left: 30%; */
+ cursor: pointer;
+ /* gap: 20px; */
+justify-content: space-around;
+width: 50%;
+}
+.navbar li{
+  list-style: none;
+  /* margin: 0 20px; */
+}
+.details{
+  background-color: black;
+  
+  height: 100px;
+  padding-left: 25%;
+
+}
+/* .details button{
+  background-color: white;
+  width: 192px;
+  height: 50px;
+ 
+   color:  rgb(233, 182, 85);
+  border-radius: 6px;
+  border: none;
+   margin-top: 30px;
+} */
+.btn1{
+  background-color: white;
+  width: 192px;
+  height: 50px;
+ 
+   color:  rgb(233, 182, 85);
+  border-radius: 6px;
+  border: none;
+   margin-top: 30px;
+  cursor: pointer;
+}
+.btn1:hover{
+  /* font-size: large; */
+  translate: 0px -20px;
+  
+  
+}
+.btn2{
+  background-color: white;
+  width: 192px;
+  height: 50px;
+ 
+   color:  rgb(233, 182, 85);
+  border-radius: 6px;
+  border: none;
+   margin-top: 30px;
+   cursor: pointer;
+}
+.btn2:hover{
+  /* font-size: large; */
+  translate: 0px -20px;
+}
+.btn3{
+  background-color: white;
+  width: 192px;
+  height: 50px;
+ 
+   color:  rgb(233, 182, 85);
+  border-radius: 6px;
+  border: none;
+   margin-top: 30px;
+   cursor: pointer;
+}
+.btn3:hover{
+  /* font-size: large; */
+  translate: 0px -20px;
+}
+.btn4{
+  background-color: rgb(233, 182, 85);
+  width: 192px;
+  height: 50px;
+ 
+   color:  white;
+  border-radius: 6px;
+  border: none;
+   margin-top: 30px;
+   cursor: pointer;
+}
+.btn4:hover{
+  /* font-size: large; */
+  translate: 0px -20px;
+}
+
+.welcome{
+    background-image: url("/hDbCjHNdF48.png");
+    width: 100%;
+    height: 700px;
+    
+    }
+    
+  .welcome h1{
+    color: rgb(250, 252, 252);
+    align-items: center;
+    justify-content: center;
+    padding-left: 400px;
+    padding-top: 350px;
+    
+    margin-bottom: 0px;
+   font-size: 60px;
+   margin-top: 0%;
+  }
+  .welcome p{
+    color: rgb(250, 252, 252);
+    align-items: center;
+    justify-content: center;
+    padding-left: 600px;
+   margin-top: 0px;
+   font-size: 20px;
+ 
+  }
+  .welcome button{
+    background-color: rgb(233, 182, 85);
+  padding: 15px 80px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+   margin-left: 40%;
+   cursor: pointer;
+   margin-top: 10px;
+}
+ 
+/* facilities start */
+
+.facilities{
+  background-color: white;
+  color: black;
+  height: 250px;
+  margin-left: 230px;
+  margin-right: 60px;
+  border-radius: 10px;
+  
+
+ /* position: relative; */
+ position: absolute;
+ top: 55em;
+   
+ box-shadow: 0 10px 11px 0 gray;
+  
+  
+}
+.facilities h2{
+  padding-left: 45%;
+  font-size: 40px;
+  margin-top: 3%;
+  color:  rgb(233, 182, 85);
+}
+.image{
+  padding-left: 100px;
+  
+}
+
+#img{
+  padding: 50px;
+  margin-left: 55px;
+}
+
+/* facilities start */
+.h2{
+  margin-top: 150px;
+  
+  padding: 10px ;
+ padding-left: 45%;
+ color:  rgb(233, 182, 85);
+ font-size: 20px;
+}
+.div1{
+
+height: 450px;
+margin: 10px 10px 0px 10px;
+display: flex;
+padding-top: 50px;
+/* justify-content: space-between; */
+gap: 14em;
+
+}
+
+
+.room1
+{
+  background-image: url("/FqqiAvJejto.png");
+  height: 85%;
+  width: 35%;
+  margin-left: 100px;
+  border-radius: 10px;
+  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+ 
+}
+.room1:hover {
+ 
+  box-shadow: 0 15px 16px 0 black;
+  
+}
+.room1 h2{
+  padding-top: 43%;
+  padding-left: 20%;
+  font-size: 35px;
+  color: white;
+}
+.room1 button{
+  
+  /* margin-left: 25%; */
+  width: 190px;
+  height: 50px;
+  margin: 0px 0px 25% 33%;
+  background-color: rgb(233, 182, 85);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.room2{
+  background-image: url("/GqbU78bdJFM.png");
+  height: 85%;
+  width: 35%;
+  margin-right: 100px;
+  border-radius: 10px;
+  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.room2:hover {
+ 
+  box-shadow: 0 15px 16px 0 black;
+}
+.room2 h2{
+  padding-top: 43%;
+  padding-left: 30%;
+  font-size: 35px;
+  color: white;
+}
+.room2 button{
+  
+  /* margin-left: 25%; */
+  width: 190px;
+  height: 50px;
+  margin: 0px 0px 25% 33%;
+  background-color: rgb(233, 182, 85);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.div2{
+  
+ height: 450px;
+ margin: 0px 10px;
+ display: flex;
+padding-top: 50px;
+
+/* justify-content: space-between; */
+gap: 14em;
+
+}
+
+.room3
+{
+  background-image: url("/w1RE0lBbREo.png");
+  height: 85%;
+  width: 35%;
+  margin-left: 100px;
+  border-radius: 10px;
+  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.room3:hover {
+ 
+  box-shadow: 0 15px 16px 0 black;
+}
+.room3 h2{
+  padding-top: 43%;
+  padding-left: 20%;
+  font-size: 35px;
+  color: white;
+}
+.room3 button{
+  
+  /* margin-left: 25%; */
+  width: 190px;
+  height: 50px;
+  margin: 0px 0px 25% 33%;
+  background-color: rgb(233, 182, 85);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.room4
+{
+  background-image: url("/aRT5UCf2MYY.png");
+  height: 85%;
+  width: 35%;
+  margin-right: 100px;
+  border-radius: 10px;
+
+  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.room4:hover {
+ 
+  box-shadow: 0 15px 16px 0 black;
+}
+.room4 h2{
+  padding-top: 43%;
+  padding-left: 33%;
+  font-size: 35px;
+  color: white;
+}
+.room4 button{
+  
+  /* margin-left: 25%; */
+  width: 190px;
+  height: 50px;
+  margin: 0px 0px 25% 33%;
+  background-color: rgb(233, 182, 85);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.booking{
+  width: 100%;
+  height: 277px;
+
+}
+.booking h2{
+  padding-top: 2%;
+  padding-left: 36%;
+ font-size: 45px;
+}
+.booking button{
+  margin-left: 35%;
+  width: 410px;
+  height: 65px;
+  border-radius: 10px;
+  background-color: rgb(233, 182, 85);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.footer{
+  border: 1px solid black;
+  height: 440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  
+}
+.f1{
+  border: 1px solid black;
+  width: 400px;
+  padding-top: 50px;
+  color: white;
+  
+}
+.desc{
+  padding-top: 60px;
+}
+.f2{
+  border: 1px solid black;
+  width: 400px;
+  color: white;
+  text-decoration: none;
+  padding: 85px;
+ 
+}
+.f2   li{
+  margin: 30px 0;
+  text-decoration: none;
+}
+
+.f3{
+ 
+  width: 400px;
+  color: white;
+
+ 
+}
+.f3 h2{
+  padding-top: 50px;
+  font-size: 40px;
+ color: white;
+}
+.f3 input{
+  width: 330px;
+  height: 50px;
+  border-radius: 10px;
+}
+.f3 button{
+  width: 330px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: rgb(233, 182, 85);
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+@media(max-width:576px){
+ 
+    .logo {
+     width: 576px;
+     margin-left: 75%;     
+    }
+    .logo-img{
+      width: 30%;
+      height: 70px;
+    }
+  nav{
+    width: 576px;
+    margin-left: 0px;
+  }
+  .navbar{
+    width: 576px;
+    gap: 0em
+ 
+}
+  .navbar li{
+    margin-left: 0px;
+    
+  }
+
+  
+  .welcome{
+    width: 576px;
+   height: 410px;
+   background-image: url("/hDbCjHNdF48.png");
+   background-size:100%;
+   
+  }
+  .welcome h1{
+    padding-left: 5px;
+   padding-top: 40%;
+   text-align: center;
+   font-size: 25px;
+  }
+  .welcome p{
+    padding-left: 2px;
+   padding-top: 10px;
+   text-align: center;
+   font-size: small;
+  }
+  .welcome button{
+    width: 90px;
+    padding: 6px 0px 6px 0px;
+   text-align: center;
+   margin-left: 39%;
+   margin-top: 10px;
+ height: 30px;
+  }
+
+
+
+  .details{
+   display: flex;
+   gap: 2em;
+    padding-left: 26px;
+  padding-right: 30px; 
+  font-size: small;
+  width: 576px;
+  height: 65px;
+ 
+  }
+
+  .details button{
+   width: 120px;
+   height: 40px;
+   padding: 11px;
+   padding-top: 5px;
+   border-radius: 5px;
+   margin-top: 10px;
+  }
+  .navbar{
+    font-size: 15px;
+    width: 576px;
+    font-weight: 40px;
+    margin-bottom: 10px;
+  }
+   .facilities{
+    border: 1px solid black;
+    width: 550px;
+   
+    position: absolute;
+    top: 34em;
+    margin-left: 10px;
+    height: 110px;
+  
+   }
+   .facilities h2{
+    width: 10px;
+    font-size: 20px;
+    padding-left: 40%;
+    
+   }
+   .image{
+    display: flex;
+    padding-left: 0px;
+   justify-content: space-evenly;
+   }
+  
+   #img{
+    padding-left: 0px;
+    width: 80px;
+    margin: 0px;
+    padding-top: 30px;
+
+   }
+   .h2{
+    width: 576px;
+    padding: 0%;
+    margin: 20% 0px 0px 35%;
+    padding-left: 100px;
+    padding-top: 20px;
+   }
+   .div1{
+    width: 576px;
+ padding-top: 10px;
+ padding-left: 5px;
+   padding-bottom: 0%;
+    
+   }
+   .room1{
+    width: 60%;
+    height: 50%;
+    background-size: 135%;
+    margin-left: 20%;
+   
+   }
+   .room1 h2{
+   font-size: 20px;
+    
+    padding-left: 25%;
+   }
+   .room1 button{
+    width: 80px;
+    height: 30px;
+    margin-bottom: 5%;
+    margin-left: 40%;
+   }
+
+   .room2{
+   display: none;
+   }
+
+   .div2{
+    width: 576px;
+    padding-top: 0px;
+    padding-left: 5px;
+    margin-bottom: 0%;
+    position: absolute;
+    top: 63em;
+
+       
+      }
+      .room3{
+       width: 60%;
+       height: 50%;
+       background-size: 135%;
+       margin-left: 20%;
+    
+      }
+      .room3 h2{
+      font-size: 20px;
+        
+       padding-left: 25%;
+      }
+      .room3 button{
+       width: 80px;
+       height: 30px;
+       margin-bottom: 5%;
+       margin-left: 40%;
+      }
+   
+      .room4{
+        display: none;
+      }
+
+      .booking{
+        width: 576px;
+        margin-top: 15%;
+       
+        height: 180px;
+      }
+      .booking h2{
+        font-size: 30px;
+      padding-left: 30%;
+      }
+      .booking button{
+        margin-top: 10px;
+        width: 30%;
+        height: 40px;
+        margin-left: 37% ;
+      }
+
+      .footer{
+        width: 576px;
+        flex-wrap: wrap;
+        gap: 1em;
+      }
+      .f2{
+        display: none;
+        
+      }
+      .f1 {
+          width: 50%;
+          padding-top: 0%;
+           margin-left: 10px;
+           text-align: center;
+          
+      }
+      #f1{
+        width: 50%;
+        
+      }
+      .desc{
+        padding-top: 10px;
+      }
+      .desc h2{
+         font-size: 30px;
+         padding-top: 0px;
+      }
+      .desc p{
+        padding-top: 10px;
+      }
+      .f3{
+        margin-top: 50%;
+        padding-left: 10%;
+        position: absolute;
+    top: 89em;
+
+      }
+      .f3 input{
+        width: 85%;
+        height: 5vh;
+        margin-left: 2;
+        margin-top: 15px;
+      }
+    .f3 button{
+      width: 50%;
+      height: 5vh;
+      margin-left: 15%;
+      margin-top: 10px;
+    }
+    }
+
+      
